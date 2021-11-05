@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4E1A20627342E8E002CFE6B /* SweetSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A20527342E8E002CFE6B /* SweetSwiftUIApp.swift */; };
 		B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A20727342E8E002CFE6B /* ContentView.swift */; };
 		B4E1A20A27342E90002CFE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1A20927342E90002CFE6B /* Assets.xcassets */; };
 		B4E1A20D27342E90002CFE6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */; };
+		B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */; };
+		B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBF27355A10002F48AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4E1A20227342E8E002CFE6B /* SweetSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E1A20527342E8E002CFE6B /* SweetSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetSwiftUIApp.swift; sourceTree = "<group>"; };
 		B4E1A20727342E8E002CFE6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4E1A20927342E90002CFE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4EF3CBF27355A10002F48AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4EF3CC127355AB3002F48AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,9 @@
 		B4E1A20427342E8E002CFE6B /* SweetSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B4E1A20527342E8E002CFE6B /* SweetSwiftUIApp.swift */,
+				B4EF3CC127355AB3002F48AE /* Info.plist */,
+				B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */,
+				B4EF3CBF27355A10002F48AE /* AppDelegate.swift */,
 				B4E1A20727342E8E002CFE6B /* ContentView.swift */,
 				B4E1A20927342E90002CFE6B /* Assets.xcassets */,
 				B4E1A20B27342E90002CFE6B /* Preview Content */,
@@ -137,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */,
 				B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */,
-				B4E1A20627342E8E002CFE6B /* SweetSwiftUIApp.swift in Sources */,
+				B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -272,11 +278,12 @@
 				DEVELOPMENT_TEAM = 8BMNZ3PCHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SweetSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +308,12 @@
 				DEVELOPMENT_TEAM = 8BMNZ3PCHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SweetSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
