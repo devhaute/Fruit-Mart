@@ -14,6 +14,7 @@
 		B4E7D2CB2738017600C6C9F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E7D2C92738017600C6C9F0 /* Launch Screen.storyboard */; };
 		B4E7D2CD27380EE100C6C9F0 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7D2CC27380EE100C6C9F0 /* ProductRow.swift */; };
 		B4E7D2D027381B7F00C6C9F0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7D2CF27381B7F00C6C9F0 /* ColorExtension.swift */; };
+		B4E7D2D227381FBA00C6C9F0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7D2D127381FBA00C6C9F0 /* Product.swift */; };
 		B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */; };
 		B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBF27355A10002F48AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		B4E7D2CA2738017600C6C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SweetSwiftUI-master/FruitMart/Supporting Files/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B4E7D2CC27380EE100C6C9F0 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		B4E7D2CF27381B7F00C6C9F0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B4E7D2D127381FBA00C6C9F0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4EF3CBF27355A10002F48AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4EF3CC127355AB3002F48AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		B4E7D2BE2737FCAE00C6C9F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B4E7D2D127381FBA00C6C9F0 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4E7D2CD27380EE100C6C9F0 /* ProductRow.swift in Sources */,
+				B4E7D2D227381FBA00C6C9F0 /* Product.swift in Sources */,
 				B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */,
 				B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */,
 				B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */,
