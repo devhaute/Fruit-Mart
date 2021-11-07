@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A20727342E8E002CFE6B /* ContentView.swift */; };
-		B4E1A20A27342E90002CFE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1A20927342E90002CFE6B /* Assets.xcassets */; };
 		B4E1A20D27342E90002CFE6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */; };
+		B4E7D2C42738003800C6C9F0 /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = B4E7D2C32738003800C6C9F0 /* ProductData.json */; };
+		B4E7D2C82738009000C6C9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E7D2C72738009000C6C9F0 /* Assets.xcassets */; };
+		B4E7D2CB2738017600C6C9F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E7D2C92738017600C6C9F0 /* Launch Screen.storyboard */; };
 		B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */; };
 		B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF3CBF27355A10002F48AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -17,11 +19,13 @@
 /* Begin PBXFileReference section */
 		B4E1A20227342E8E002CFE6B /* SweetSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E1A20727342E8E002CFE6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B4E1A20927342E90002CFE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4E7D2C32738003800C6C9F0 /* ProductData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProductData.json; path = "../../../../Downloads/SweetSwiftUI-master/FruitMart/Resources/ProductData.json"; sourceTree = "<group>"; };
+		B4E7D2C72738009000C6C9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/SweetSwiftUI-master/FruitMart/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		B4E7D2CA2738017600C6C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SweetSwiftUI-master/FruitMart/Supporting Files/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4EF3CBF27355A10002F48AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4EF3CC127355AB3002F48AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4EF3CC127355AB3002F48AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,9 @@
 		B4E1A20427342E8E002CFE6B /* SweetSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B4EF3CC127355AB3002F48AE /* Info.plist */,
-				B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */,
-				B4EF3CBF27355A10002F48AE /* AppDelegate.swift */,
-				B4E1A20727342E8E002CFE6B /* ContentView.swift */,
-				B4E1A20927342E90002CFE6B /* Assets.xcassets */,
+				B4E7D2BB2737FC6700C6C9F0 /* Source */,
+				B4E7D2C02737FCDB00C6C9F0 /* Resources */,
+				B4E7D2C12737FCEF00C6C9F0 /* Supporting Files */,
 				B4E1A20B27342E90002CFE6B /* Preview Content */,
 			);
 			path = SweetSwiftUI;
@@ -70,6 +72,74 @@
 				B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4E7D2BB2737FC6700C6C9F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7D2BC2737FC7500C6C9F0 /* Application */,
+				B4E7D2BD2737FC8600C6C9F0 /* User Interface */,
+				B4E7D2BE2737FCAE00C6C9F0 /* Model */,
+				B4E7D2BF2737FCBF00C6C9F0 /* Helper */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B4E7D2BC2737FC7500C6C9F0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B4EF3CBF27355A10002F48AE /* AppDelegate.swift */,
+				B4EF3CBD273559E1002F48AE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B4E7D2BD2737FC8600C6C9F0 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7D2C22737FD2D00C6C9F0 /* Home */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		B4E7D2BE2737FCAE00C6C9F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4E7D2BF2737FCBF00C6C9F0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B4E7D2C02737FCDB00C6C9F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7D2C32738003800C6C9F0 /* ProductData.json */,
+				B4E7D2C72738009000C6C9F0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4E7D2C12737FCEF00C6C9F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7D2C92738017600C6C9F0 /* Launch Screen.storyboard */,
+				B4EF3CC127355AB3002F48AE /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4E7D2C22737FD2D00C6C9F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1A20727342E8E002CFE6B /* ContentView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4E1A20D27342E90002CFE6B /* Preview Assets.xcassets in Resources */,
-				B4E1A20A27342E90002CFE6B /* Assets.xcassets in Resources */,
+				B4E7D2CB2738017600C6C9F0 /* Launch Screen.storyboard in Resources */,
+				B4E7D2C82738009000C6C9F0 /* Assets.xcassets in Resources */,
+				B4E7D2C42738003800C6C9F0 /* ProductData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +221,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4E7D2C92738017600C6C9F0 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4E7D2CA2738017600C6C9F0 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B4E1A20E27342E90002CFE6B /* Debug */ = {
@@ -272,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SweetSwiftUI/Preview Content\"";
@@ -281,6 +365,7 @@
 				INFOPLIST_FILE = SweetSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -302,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SweetSwiftUI/Preview Content\"";
@@ -311,6 +397,7 @@
 				INFOPLIST_FILE = SweetSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
