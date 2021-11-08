@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47C49BA273923B500BEBA2D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C49B9273923B500BEBA2D /* BundleExtension.swift */; };
+		B47C49BC2739261500BEBA2D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C49BB2739261500BEBA2D /* Store.swift */; };
 		B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A20727342E8E002CFE6B /* ContentView.swift */; };
 		B4E1A20D27342E90002CFE6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */; };
 		B4E7D2C42738003800C6C9F0 /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = B4E7D2C32738003800C6C9F0 /* ProductData.json */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B47C49B9273923B500BEBA2D /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		B47C49BB2739261500BEBA2D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B4E061F42739698900A516B7 /* ProductData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductData.json; sourceTree = "<group>"; };
 		B4E1A20227342E8E002CFE6B /* SweetSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E1A20727342E8E002CFE6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 		B4E1A20B27342E90002CFE6B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B4E061F42739698900A516B7 /* ProductData.json */,
 				B4E1A20C27342E90002CFE6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -112,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				B4E7D2D127381FBA00C6C9F0 /* Product.swift */,
+				B47C49BB2739261500BEBA2D /* Store.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				B4E7D2CF27381B7F00C6C9F0 /* ColorExtension.swift */,
+				B47C49B9273923B500BEBA2D /* BundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -234,6 +242,8 @@
 				B4E7D2CD27380EE100C6C9F0 /* ProductRow.swift in Sources */,
 				B4E7D2D227381FBA00C6C9F0 /* Product.swift in Sources */,
 				B4EF3CC027355A10002F48AE /* AppDelegate.swift in Sources */,
+				B47C49BC2739261500BEBA2D /* Store.swift in Sources */,
+				B47C49BA273923B500BEBA2D /* BundleExtension.swift in Sources */,
 				B4E1A20827342E8E002CFE6B /* ContentView.swift in Sources */,
 				B4EF3CBE273559E1002F48AE /* SceneDelegate.swift in Sources */,
 				B4E7D2D027381B7F00C6C9F0 /* ColorExtension.swift in Sources */,
