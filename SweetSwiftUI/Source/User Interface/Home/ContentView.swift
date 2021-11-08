@@ -6,8 +6,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(store.products) { product in
-                ProductRow(product: product)
+                NavigationLink {
+                    Text("상세 정보")
+                } label: {
+                    ProductRow(product: product)
+                }
+
             }
+            .navigationBarTitle("과일마트")
         }
     }
 }
