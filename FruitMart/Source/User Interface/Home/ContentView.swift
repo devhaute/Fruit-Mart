@@ -7,7 +7,7 @@ struct ContentView: View {
         NavigationView {
             List(store.products) { product in
                 NavigationLink {
-                    Text("상세 정보")
+                    ProductDetailView(product: product)
                 } label: {
                     ProductRow(product: product)
                 }
