@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     var store: Store
+    @Environment(\.layoutDirection) var layoutDirection
     
     var body: some View {
         NavigationView {
@@ -20,6 +21,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(store: Store())
+        Preview(source: ContentView(store: Store()))
     }
 }
